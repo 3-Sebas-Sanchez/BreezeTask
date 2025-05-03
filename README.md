@@ -1,53 +1,49 @@
-# Gestor Personal de Notas, Tareas y Calendario
+# Personal Manager of Notes, Tasks, and Calendar "NoteHub" 📱
 
-## 📌 Descripción General
+## 📌 General Description
 
-Este proyecto es una **aplicación de escritorio** desarrollada en Java con enfoque en **Programación Orientada a Objetos**, que permite al usuario gestionar de forma integral:
+This project is a **Mobile Application** developed in Java with a focus on **Object-Oriented Programming** and inspired by the popular note-taking app, Notion. It allows the user to manage:
 
-- **Notas** personales con etiquetas y edición.
-- **Tareas** con prioridades y estado de finalización.
-- **Eventos de calendario** y visualización mensual.
-- **Recordatorios** con alarmas programadas.
-- **Horario semanal** con actividades programadas.
-- **Sistema de almacenamiento** para persistencia local de datos.
-
-El flujo general de la aplicación es controlado por una clase principal `Application`, que coordina todos los módulos funcionales de manera independiente.
+- **Personal Notes** with tags and editing.
+- **Tasks** with priorities and completion status.
+- **Calendar Events** with monthly view.
+- **Reminders** with scheduled alarms.
+- **Weekly Schedule** with planned activities.
+- **Storage System** for local data persistence.
 
 ---
 
-## 🛠️ Tecnologías Usadas
+## 🛠️🔧 Technologies Used
 
-- **Lenguaje:** Java
-- **Entorno de desarrollo:** Visual Studio Code
-- **UML:** Diagramas realizados con PlantUML
-- **Control de versiones:** Git
-- **Licencia:** GPL v3.0
+- **Language:** Java
+- **Development Environment:** Visual Studio Code
+- **Development Tools:** Word, PlantUML, Draw.io, Canva
+- **Version Control:** Git
+- **License:** GPL v3.0
 
 ---
 
 ## 🧪 Workshops
 
-### 📘 Workshop 1: Modelado Orientado a Objetos
+### 📘 Workshop 1: Object-Oriented Design and Requirements
 
-Contenido cubierto:
+Content covered:
 
-- Diseño del sistema mediante diagramas de clases UML.
-- Separación modular por funcionalidades (Notas, Tareas, Calendario, etc.).
-- Implementación de métodos y atributos por clase.
-- Organización en paquetes.
-- Uso de principios SOLID a nivel estructural.
-
-> 📄 Documento base: `Documentation (1).pdf`
+- General and Specific objectives.
+- Functional and non-functional requirements.
+- User stories and acceptance criteria.
+- Mockups.
+- CRC cards.
 
 ---
 
-## 👨‍💻 Autores
+## 👨‍💻🧑‍💻 Authors
 
 - Juan Carlos Córdoba  
 - Sebastián Sánchez
 
 ---
 
-## 📄 Licencia
+## 📄🔒️ License
 
-Este proyecto está licenciado bajo los términos de la **GNU General Public License v3.0** - ver el archivo [LICENSE](https://www.gnu.org/licenses/gpl-3.0.html) para más detalles.
+This project is licensed under the terms of the **GNU General Public License v3.0** - see the [LICENSE](https://www.gnu.org/licenses/gpl-3.0.html) file for more details.
