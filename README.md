@@ -25,7 +25,7 @@ This project is a **Mobile Application** developed in Java with a focus on **Obj
 
 ## 🧪 Workshops
 
-### 📘 Workshop 1: Object-Oriented Design and Requirements
+### 📘 [Workshop 1: Object-Oriented Design and Requirements](https://github.com/3-Sebas-Sanchez/BreezeTask/blob/1113971ec542c63309aaf0171ea15b4865349d75/Workshops/Workshop-1/Documentation%20(1).pdf)
 
 Content covered:
 
