@@ -49,8 +49,8 @@ Content covered:
 
 ## 👨‍💻🧑‍💻 Authors
 
-- Juan Carlos Córdoba  
-- Sebastián Sánchez
+- Juan Carlos Córdoba Asprilla – 20242020047 
+- Sebastián Camilo Sánchez Cárdenas- 20242020086 
 
 ---
 
