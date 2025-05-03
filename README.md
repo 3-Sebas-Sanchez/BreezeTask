@@ -36,6 +36,16 @@ Content covered:
 - CRC cards.
 
 ---
+### 🧩 Workshop 2: Object-Oriented Implementation
+
+Content covered:
+
+- Refinement of Conceptual Design.
+- UML Class Diagrams (showing inheritance, attributes, methods, relationships).
+- Sequence and/or Activity Diagrams to illustrate class interactions.
+- Application of OOP Principles: Encapsulation, Inheritance, Polymorphism.
+- Preliminary code snippets aligned with design.
+- Proposed folder structure for implementation.
 
 ## 👨‍💻🧑‍💻 Authors
 
