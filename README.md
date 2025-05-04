@@ -13,7 +13,7 @@ This project is a **Mobile Application** developed in Java with a focus on **Obj
 
 ---
 
-## 📁 What you'll find in the repository
+## 📁 ¿ What you'll find in the repository ?
 
 - 📄 **Project Documentation**: Technical information about the structure, features, and design of the notes application. Includes UML diagrams, module descriptions, and implementation details.
 
