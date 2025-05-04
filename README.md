@@ -1,6 +1,6 @@
 #  Your Personal Manager of Notes, Tasks, and Calendar: NoteHub📱      
 
-## 📌 Proyect Description
+## 📌 Project Description
 
 This project is a **Mobile Application** developed in Java with a focus on **Object-Oriented Programming** and inspired by the popular note-taking app, Notion. It allows the user to manage:
 
@@ -17,7 +17,7 @@ This project is a **Mobile Application** developed in Java with a focus on **Obj
 
 - 📄 **Project Documentation**: Technical information about the structure, features, and design of the notes application. Includes UML diagrams, module descriptions, and implementation details.
 
-- 🗂️ **Proyect Files**: Source code of the application, graphic assets, configuration files, and other essential elements to run and develop the project.
+- 🗂️ **Project Files**: Source code of the application, graphic assets, configuration files, and other essential elements to run and develop the project.
 
 - 🚧 Beta Versions
 
