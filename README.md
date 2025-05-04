@@ -39,11 +39,11 @@ This project is a **Mobile Application** developed in Java with a focus on **Obj
 
 Content covered:
 
-- General and Specific objectives.
-- Functional and non-functional requirements.
-- User stories and acceptance criteria.
-- Mockups.
-- CRC cards.
+- 🎯 *General and Specific Objectives*: Goals that define the purpose and scope of the notes application.
+- ✅ *Functional and Non-Functional Requirements*: Detailed list of what the system should do and the quality attributes it must meet.
+- 🧑‍💻 *User Stories and Acceptance Criteria*: Descriptions of user interactions with the system and the conditions for validating those interactions.
+- 🖼️ *Mockups*: Visual prototypes of the application's interface and main screens.
+- 🃏 *CRC Cards (Class–Responsibility–Collaborator)*: OOP-based design cards used to define class roles and interactions.
 
 ---
 ### 🧩 [Workshop 2: Object-Oriented Implementation](https://github.com/3-Sebas-Sanchez/BreezeTask/blob/3e7993b842e21d869e5adab1b01029134abbd931/Workshops/Workshop-2/DOCUMENTATION%20WORKSHOP-2%20PROJECT%20OBJECT-ORIENTED%20PROGRAMMING%20(1).pdf)
