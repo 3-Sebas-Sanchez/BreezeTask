@@ -23,7 +23,7 @@ This project is a **Mobile Application** developed in Java with a focus on **Obj
 
 ---
 
-##🔧🛠️Technologies And Tools 
+## 🛠️Technologies And Tools 
 
 - **Language:** Java
 - **Development Environment:** Visual Studio Code
