@@ -13,7 +13,15 @@ This project is a **Mobile Application** developed in Java with a focus on **Obj
 
 ---
 
-## 🔧Technologies And Tools 
+## 📁 What you'll find in the repository
+
+- 📄 **Project Documentation**: Technical information about the structure, features, and design of the notes application. Includes UML diagrams, module descriptions, and implementation details.
+
+- 🗂️ **Proyect Files**: Source code of the application, graphic assets, configuration files, and other essential elements to run and develop the project.
+
+- ⏳🚧 Beta Versions
+
+##🔧🛠️Technologies And Tools 
 
 - **Language:** Java
 - **Development Environment:** Visual Studio Code
