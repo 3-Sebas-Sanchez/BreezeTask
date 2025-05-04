@@ -19,7 +19,7 @@ This project is a **Mobile Application** developed in Java with a focus on **Obj
 
 - 🗂️ **Proyect Files**: Source code of the application, graphic assets, configuration files, and other essential elements to run and develop the project.
 
-- ⏳🚧 Beta Versions
+- 🚧 Beta Versions
 
 ---
 
