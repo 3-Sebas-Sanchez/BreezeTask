@@ -1,4 +1,4 @@
-# **NoteHub**  Your Personal Manager of Notes, Tasks, and Calendar  📱
+# - Your Personal Manager of Notes, Tasks, and Calendar **NoteHub** -  📱
 
 ## 📌 Proyect Description
 
