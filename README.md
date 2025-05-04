@@ -36,7 +36,7 @@ Content covered:
 - CRC cards.
 
 ---
-### 🧩 Workshop 2: Object-Oriented Implementation
+### 🧩 [Workshop 2: Object-Oriented Implementation](https://github.com/3-Sebas-Sanchez/BreezeTask/blob/3e7993b842e21d869e5adab1b01029134abbd931/Workshops/Workshop-2/DOCUMENTATION%20WORKSHOP-2%20PROJECT%20OBJECT-ORIENTED%20PROGRAMMING%20(1).pdf)
 
 Content covered:
 
