@@ -46,8 +46,8 @@ Content covered:
 - *CRC Cards (Class–Responsibility–Collaborator)*: OOP-based design cards used to define class roles and interactions.
 
 ---
-### 🧩 [Workshop 2: Object-Oriented Implementation(https://github.com/3-Sebas-Sanchez/BreezeTask/blob/3e7993b842e21d869e5adab1b01029134abbd931/Workshops/Workshop-2/DOCUMENTATION%20WORKSHOP-2%20PROJECT%20OBJECT-ORIENTED%20PROGRAMMING%20(1).pdf](https://github.com/3-Sebas-Sanchez/BreezeTask/blob/65d50e913085705675f398a4f523d636cbfa0678/Workshops/Workshop-2/DOCUMENTATION%20WORKSHOP-2%20PROJECT%20OBJECT-ORIENTED%20PROGRAMMING.pdf)
-
+### 🧩 [Workshop 2: Object-Oriented Implementation]((https://github.com/3-Sebas-Sanchez/BreezeTask/blob/3e7993b842e21d869e5adab1b01029134abbd931/Workshops/Workshop-2/DOCUMENTATION%20WORKSHOP-2%20PROJECT%20OBJECT-ORIENTED%20PROGRAMMING%20(1).pdf](https://github.com/3-Sebas-Sanchez/BreezeTask/blob/65d50e913085705675f398a4f523d636cbfa0678/Workshops/Workshop-2/DOCUMENTATION%20WORKSHOP-2%20PROJECT%20OBJECT-ORIENTED%20PROGRAMMING.pdf)
+)
 Content covered:
 
 - Refinement of Conceptual Design.
