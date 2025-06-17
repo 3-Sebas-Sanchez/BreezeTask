@@ -73,11 +73,11 @@ UPDATES:
   - **Sequence Diagram**: Demonstrates interactions over time, clarifying object behavior.
 
 - *Application of SOLID Principles*:
-  - **Single Responsibility**: Each class performs one task (e.g., Note handles note content, Calendar manages reminders).
-  - **Open/Closed**: The interface `Content` allows extending functionality (e.g., new content types) without altering existing classes.
-  - **Liskov Substitution**: `Note` and `Reminder` can substitute `Content` without breaking the app’s functionality.
-  - **Interface Segregation**: The `Content` interface defines only essential methods, ensuring no unnecessary implementation.
-  - **Dependency Inversion**: High-level classes like `Application` depend on the abstraction `Content`, not concrete classes.
+  - **Single Responsibility**
+  - **Open/Closed**
+  - **Liskov Substitution**
+  - **Interface Segregation**
+  - **Dependency Inversion**
 
 - *Code Implementation (in progress)*
 
