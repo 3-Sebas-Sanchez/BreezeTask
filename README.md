@@ -64,17 +64,11 @@ Content covered:
 UPDATES:
 
 - *Introduction and Motivation*
-  
 - *General and Specific Objectives*
-- 
 - *Functional and Non-Functional Requirements*:
-
 - *User Stories and Acceptance Criteria*
-  
 - *CRC Cards
-- 
 - *UML Diagrams*:
-- 
   - **Class Diagram**: Shows the structure and relationships between core classes and interfaces.
   - **Sequence Diagram**: Demonstrates interactions over time, clarifying object behavior.
 
