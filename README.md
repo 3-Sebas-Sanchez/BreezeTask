@@ -25,7 +25,7 @@ This project is a **Mobile Application** developed in Java with a focus on **Obj
 
 ## 🛠️Technologies And Tools 
 
-- **Language:** Java
+- **Language:** Java , java swing
 - **Development Environment:** Visual Studio Code
 - **Development Tools:** Word, PlantUML, Draw.io, Canva
 - **Version Control:** Git
@@ -80,6 +80,17 @@ UPDATES:
   - **Dependency Inversion**
 
 - *Code Implementation (in progress)*
+
+### 🧱 [Workshop 4: Layered Architecture, GUI & File Handling](https://github.com/3-Sebas-Sanchez/BreezeTask/blob/main/Workshops/Workshop-4/Documentation.pdf)
+
+Content covered:
+
+- *Layered Architecture Overview*: Separation of concerns into presentation (Swing GUI), business logic (Notes, Reminder, Calendar), and data access layers (persistence preparation).
+- *Swing-based GUI Implementation*: Functional interface with basic components such as tabs, buttons, and text areas for creating and showing notes.
+- *File Persistence Layer*: Initial design for saving and loading content to local files using Java serialization or file I/O.
+- *Updated UML Diagrams*: Class and sequence diagrams reflecting the architecture.
+- *Code Snippets and Notes*: Key fragments demonstrating architecture separation and interaction.
+- *README and Execution Instructions*: Build and run guide included in the repository.
 
 
 ## 👨‍💻🧑‍💻 Authors
