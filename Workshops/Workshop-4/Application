@@ -1,0 +1,65 @@
+package BreezeTask;
+
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Application {
+
+    private static List<String> notes = new ArrayList<>(); //Create a list of notes
+
+    public static void main(String[] args) {
+
+        JFrame frame = new JFrame("NoteHub");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(600, 400);
+        frame.setLayout(new BorderLayout());
+
+        JTabbedPane tabbedPane = new JTabbedPane();
+
+        JPanel notesPanel = new JPanel(new BorderLayout());
+
+        JTextArea noteTextArea = new JTextArea();
+        noteTextArea.setFont(new Font("Times new roman", Font.PLAIN, 16));
+        JScrollPane noteScrollPane = new JScrollPane(noteTextArea);
+
+        JButton addNoteBtn = new JButton("Add Note");
+        addNoteBtn.addActionListener(e -> {
+                String note = noteTextArea.getText();
+                if (!note.isEmpty()) {
+                    notes.add(note);
+                    noteTextArea.setText("");
+                    JOptionPane.showMessageDialog(frame, "Note added succesfully");
+                } else {
+                    JOptionPane.showMessageDialog(frame, "Invalid note");
+                }
+        });
+
+        JButton showNoteBtn = new JButton("Show Note");
+        showNoteBtn.addActionListener(e -> {
+            String note = noteTextArea.getText();
+            {
+                System.out.println(note);
+            }
+        });
+
+        /*
+        * Add a scroll to the notes panel
+        * Add the button to create notes into the notes panel
+        * Add the button to show the notes that had already created
+        */
+        notesPanel.add(noteScrollPane, BorderLayout.CENTER);
+        notesPanel.add(addNoteBtn, BorderLayout.SOUTH);
+        notesPanel.add(showNoteBtn, BorderLayout.WEST);
+
+        /*
+        *
+        * */
+        tabbedPane.addTab("Notes", notesPanel);
+        frame.add(tabbedPane, BorderLayout.CENTER);
+        frame.setVisible(true);
+    }
+}
