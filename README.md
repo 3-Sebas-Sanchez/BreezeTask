@@ -56,6 +56,7 @@ Content covered:
 - Preliminary code snippets aligned with design.
 - [Proposed folder structure for implementation..](https://www.plantuml.com/plantuml/png/lLRDRkCs4BxhAOYzL8icBs0KmIwyFHJ8jiN-d8MnE97PYAHAZfnwZJnL7w4lLeeYQT9XwbFtO7dqpGpdXn-7UcS93CroR7vW7mGC1YGmZgmVmQ9bHpR1dpEI4xz-l7Sl1fZ1oQ15vHpP24oR0PJu1htuvs_5fERpw1GSHsQ59PJGD1FqZp0WU_D-caRH0mcjs5ORVCDE3VEnBCjq7cNibYbDQ3Vir-KlG0JsqK5Vt5-4UXXHSJ0RjWrIKDX-ZouTtB3FGGeAWr8eZixZKv2Y1sa3m-Am2Z72R0mg-gZ3QcI46e9Es4-pKkvzmtPQZmYgyPeVcL2218pY6xPlD-oW1GyAkzTFdGIXEebglbG-2UhtdVInMWKo1Ipjzg3uY5yjcb_KD5ChbcVTTDJ0rzpjHJ3yIr06FJVFsMxvjZFlMEpKYf_24hr18EoK0riITExF3Ukr8bIl98LSqEeb-8O9HJTCuLFtdpuSHoGil4e3uBmROOVZUL7_Mb_EeDG7lEeGUrCq876qg3bWPH4HzGixxjuBIp-jchleOD0p_mEGMsjv9X-xq4uy2EIP8klXTetLkkPjwxrBhRdtXLvjo5MpUU90-4L8j0HoUfL0_f1M2BJYfspFo27jykWu4DIZIZ2FZXvoMZZ0w_lVxq4Ds4r6Q2FeUDxKY7m_paI71p4IccvtF6TL9XC8iJJbhkJP0YMUSRIz4TF2af9NPMrfAcrZfz9SkaR3hC_9kQtrz_Tg8VyBtKf2nVbUuLHIdV8XsmUqMaOdjQ9zwv-L2lPYs8_kHnqUK95jgxFWvqN7JlbGotQgzQvTuicYglTYm1YdUz0cf1QvuOFSnSxs90v0sCLRh0poMk_YJLSxa46NDG-fWn6CR7cQI3UCX7IoE_TEbcWj35Wl9gRONexlJ57FCbxKbIIZgjnX6z3svQ7smHQQHg4SBhNTV1yisQaOTIbAULUT-r6bbm9PEdZa6iV3bmVxVBI4Ccz0rAJwuO2-f7QjwxVT7zZJowj_jNaR3SfxU-VYpYz6UFunTdjxjrxvb-Wwno_HT18l5Ma3BnM9VfUAM77J-FWfa_YQMVXKKbBnDJE8MNdGdwV6FtEZYEGfHQ6mYvLuC7AcYK9X-WuLNpwl_mK0)
 
+---
 
 ### 🔧 [Workshop 3: SOLID Principles and Updates ](https://github.com/3-Sebas-Sanchez/BreezeTask/blob/2c1d1234744ff86da1f24854a1172a0a27691b35/Workshops/Workshop-3/Workshop%20-%203%20(3).pdf)
 
@@ -81,6 +82,7 @@ UPDATES:
 
 - *Code Implementation (in progress)*
 
+---
 ### 🧱 [Workshop 4: Layered Architecture, GUI & File Handling](https://github.com/3-Sebas-Sanchez/BreezeTask/blob/main/Workshops/Workshop-4/Documentation.pdf)
 
 Content covered:
