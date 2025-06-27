@@ -39,9 +39,10 @@ public class Application {
 
         JButton showNoteBtn = new JButton("Show Note");
         showNoteBtn.addActionListener(e -> {
-            String note = noteTextArea.getText();
-            {
-                System.out.println(note);
+            if (!notes.isEmpty()) {
+                noteTextArea.setText(notes.get(notes.size() - 1));
+            } else {
+                JOptionPane.showMessageDialog(frame, "You do not have any note yet");
             }
         });
 
