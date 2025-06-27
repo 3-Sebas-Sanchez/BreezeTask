@@ -32,6 +32,39 @@ To run this project, you’ll need:
 
 ## 📥 Step-by-step Instructions
 
+### 📦 Option 1: Using Git and Terminal (Command Line)
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/your-username/notehub.git
+cd notehub
+```
+
+2. **Navigate to Workshop 4 Code Folder**
+
+```bash
+cd Workshops/Workshop-4/code
+```
+
+3. **Compile the Java Files**
+
+```bash
+javac BreezeTask/*.java
+```
+
+4. **Run the Application**
+
+```bash
+java BreezeTask.Application
+```
+
+> ✅ Main class to execute: `BreezeTask.Application`
+
+---
+
+### 📦 Option 2: Manual download 
+
 1. **Enter the Repository**  
    Go to the main page of this repository.
 
