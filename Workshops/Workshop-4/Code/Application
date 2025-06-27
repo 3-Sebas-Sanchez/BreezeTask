@@ -29,11 +29,13 @@ public class Application {
         addNoteBtn.addActionListener(e -> {
                 String note = noteTextArea.getText();
                 if (!note.isEmpty()) {
-                    notes.add(note);
-                    noteTextArea.setText("");
-                    JOptionPane.showMessageDialog(frame, "Note added succesfully");
-                } else {
-                    JOptionPane.showMessageDialog(frame, "Invalid note");
+                    try {
+                        notes.add(note);
+                        noteTextArea.setText("");
+                        JOptionPane.showMessageDialog(frame, "Note added succesfully");
+                    } catch (Exception ex) {
+                        JOptionPane.showMessageDialog(frame, "Invalid note");
+                    }
                 }
         });
 
