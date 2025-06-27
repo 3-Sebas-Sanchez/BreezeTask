@@ -13,8 +13,7 @@ Welcome to **NoteHub**, a lightweight Java desktop application inspired by Notio
 
 - `src/`: Contains the source code (Java classes like `Application.java`, `Notes.java`, `Reminder.java`, etc.).
 - `README.md`: This file, with instructions and project description.
-- `docs/`: Documentation including UML diagrams and workshops.
-- (Optional) `resources/`: Where saved data files may go.
+- `Workshop-4/`: Documentation including UML diagrams and tecnical desing.
 
 ---
 
@@ -28,32 +27,46 @@ To run this project, you’ll need:
 
 ---
 
-## 🚀 How to Run This Project
+# 🚀 How to Run NoteHub 
 
-### 🖥️ Option 1: Run from an IDE (easy)
 
-1. Download or clone the repository:
-   - If you don't know Git: click on the green `Code` button above → `Download ZIP` → extract it to a folder.
-   - If you know Git:  
-     ```bash
-     git clone https://github.com/your-username/notehub.git
-     cd notehub
-     ```
+## 📥 Step-by-step Instructions
 
-2. Open the project in your IDE (like IntelliJ or VSCode).
+1. **Enter the Repository**  
+   Go to the main page of this repository.
 
-3. Locate the file:  
-   `src/BreezeTask/Application.java`
+2. **Navigate to the Workshop**  
+   In the repository, open the folder:  
+   `Workshops/Workshop-4/code`
 
-4. Right-click `Application.java` and select **Run** or **Execute**.
+3. **Download the Java Files**  
+   - Click on each file in that folder (e.g., `Application.java`, `Notes.java`, `Reminder.java`, etc.).
+   - Once inside each file, click the **“Raw”** button, then right-click and **Save As**.
+   - Repeat for all Java files in that folder.
+
+4. **Open Your IDE**  
+   Use any Java-compatible IDE you prefer (we recommend **IntelliJ IDEA**, **NetBeans**, or **VSCode**).
+
+5. **Create a New Java Project**  
+   - Open your IDE and create a new empty Java project.
+   - Add all the downloaded `.java` files to the `src` folder of your new project.
+
+6. **Compile and Run the Program**  
+   - Locate the file `Application.java` inside the `BreezeTask` package (or folder).
+   - Right-click the file and choose **Run**, or use the IDE’s run button.
+
+> 📌 **Main class to execute:**  
+> `BreezeTask.Application`
 
 ---
 
-### 💻 Option 2: Run from Terminal (manual method)
+## 💡 Troubleshooting
 
-1. Open your terminal or command prompt.
+- If you see errors, make sure the files are inside the same package/folder.
+- Ensure your IDE is using **JDK 8 or higher**.
+- If the package name is `BreezeTask`, make sure your folder structure follows `src/BreezeTask/`.
 
-2. Navigate to the source folder:
-   ```bash
-   cd path/to/notehub/src
+---
+
+Enjoy exploring and running your NoteHub app!
 
