@@ -83,7 +83,7 @@ UPDATES:
 - *Code Implementation (in progress)*
 
 ---
-### 🧱 [Workshop 4: Layered Architecture, GUI & File Handling](https://github.com/3-Sebas-Sanchez/BreezeTask/blob/f51df3165466d1a923551f399e4c4fce721755fb/Workshops/Workshop-4/Workshop%20-%204%20(2).pdf)
+### 🧱 [Workshop 4: Layered Architecture, GUI & File Handling]([https://github.com/3-Sebas-Sanchez/BreezeTask/blob/f51df3165466d1a923551f399e4c4fce721755fb/Workshops/Workshop-4/Workshop%20-%204%20(2).pdf](https://github.com/3-Sebas-Sanchez/BreezeTask/blob/0550a84bd7660424c29acc3f185d7fe6b596d3c6/Workshops/Workshop-4/Workshop%20-%204%20(9)%20(1).pdf))
 
 Content covered:
 
