@@ -11,6 +11,8 @@ public class Application {
 
     private static List<String> notes = new ArrayList<>(); //Create a list of notes
     private static final String notesFile = "notes.txt";
+    private static final String remindersFile = "reminders.txt";
+    private static List<String> reminders = new ArrayList<>();
 
     private static void saveNotes() {
         try {
@@ -30,8 +32,26 @@ public class Application {
         }
     }
 
+    private static void saveReminders() {
+        try {
+            Files.write(Paths.get(remindersFile), reminders);
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, "You do not have any reminder yet: ");
+        }
+    }
+
+    private static void loadReminders() {
+        try {
+            if (Files.exists(Paths.get(remindersFile))) {
+                reminders = Files.readAllLines(Paths.get(remindersFile));
+            }
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, "You do not have any reminder yet: ");
+        }
+    }
     public static void main(String[] args) {
         loadNotes();
+        loadReminders();
 
         JFrame frame = new JFrame("NoteHub");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -70,26 +90,68 @@ public class Application {
             }
         });
 
+        /*
+         * Add a scroll to the notes panel
+         * Add the button to create notes into the notes panel
+         * Add the button to show the notes that had already created
+         */
+        notesPanel.add(noteScrollPane, BorderLayout.CENTER);
+        JPanel noteButtonsPanel = new JPanel(new FlowLayout());
+        noteButtonsPanel.add(showNoteBtn);
+        noteButtonsPanel.add(addNoteBtn);
+        notesPanel.add(noteButtonsPanel, BorderLayout.SOUTH);
+
         frame.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
                 saveNotes();
+                saveReminders();
             }
         });
 
-        /*
-        * Add a scroll to the notes panel
-        * Add the button to create notes into the notes panel
-        * Add the button to show the notes that had already created
-        */
-        notesPanel.add(noteScrollPane, BorderLayout.CENTER);
-        notesPanel.add(addNoteBtn, BorderLayout.SOUTH);
-        notesPanel.add(showNoteBtn, BorderLayout.WEST);
+        JPanel remindersPanel = new JPanel(new BorderLayout());
+
+        JTextArea reminderTextArea = new JTextArea();
+        noteTextArea.setFont(new Font("Times new roman", Font.PLAIN, 16));
+        JScrollPane reminderScrollPane = new JScrollPane(reminderTextArea);
+
+        JButton addReminderBtn = new JButton("Add Reminder");
+        addReminderBtn.addActionListener(e -> {
+            String reminder = reminderTextArea.getText();
+            if (!reminder.isEmpty()) {
+                try {
+                    reminders.add(reminder);
+                    saveReminders();
+                    reminderTextArea.setText("");
+                    JOptionPane.showMessageDialog(frame, "Reminder added succesfully");
+                } catch (Exception ex) {
+                    JOptionPane.showMessageDialog(frame, "Invalid reminder");
+                }
+            }
+        });
+
+        JButton showReminderBtn = new JButton("Show Reminder");
+        showReminderBtn.addActionListener(e -> {
+            if (!reminders.isEmpty()) {
+                reminderTextArea.setText(reminders.get(reminders.size() - 1));
+            } else {
+                JOptionPane.showMessageDialog(frame, "You do not have any reminder yet");
+            }
+        });
+
+        remindersPanel.add(reminderScrollPane, BorderLayout.CENTER);
+        JPanel reminderButtonsPanel = new JPanel(new FlowLayout());
+        reminderButtonsPanel.add(showReminderBtn);
+        reminderButtonsPanel.add(addReminderBtn);
+        remindersPanel.add(reminderButtonsPanel, BorderLayout.SOUTH);
+
+        tabbedPane.addTab("Notes", notesPanel);
+        tabbedPane.addTab("Reminders", remindersPanel);
 
         /*
         *
         * */
-        tabbedPane.addTab("Notes", notesPanel);
+
         frame.add(tabbedPane, BorderLayout.CENTER);
         frame.setVisible(true);
     }
