@@ -2,14 +2,12 @@ package BreezeTask;
 
 import java.util.Date;
 
-import BreezeTask.Content;
-
-public class Notes implements Content{
+public class Note implements Content{
     private String text;
     private Date date;
     private int number;
 
-    public Notes(String text, Date date, int number) {
+    public Note(String text, Date date, int number) {
         this.text = text;
         this.date = date;
         this.number = number;
