@@ -2,7 +2,7 @@
 
 ## 📌 Project Description
 
-This project is a **Mobile Application** developed in Java with a focus on **Object-Oriented Programming** and inspired by the popular note-taking app, Notion. It allows the user to manage:
+This project is a **Desktop Application** developed in Java with a focus on **Object-Oriented Programming** and inspired by the popular note-taking app, Notion. It allows the user to manage:
 
 - **Personal Notes** with tags and editing.
 - **Calendar Events** with monthly view.
