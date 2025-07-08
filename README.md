@@ -5,7 +5,6 @@
 This project is a **Mobile Application** developed in Java with a focus on **Object-Oriented Programming** and inspired by the popular note-taking app, Notion. It allows the user to manage:
 
 - **Personal Notes** with tags and editing.
-- **Tasks** with priorities and completion status.
 - **Calendar Events** with monthly view.
 - **Reminders** with scheduled alarms.
 - **Weekly Schedule** with planned activities.
